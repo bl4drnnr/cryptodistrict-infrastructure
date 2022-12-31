@@ -23,3 +23,11 @@ variable "droplet_names" {
     "btcnode",
   ]
 }
+
+variable "droplet_volumes" {
+  description = "List of droplets volumes"
+  type        = list(string)
+  default     = [
+    "btcvolume"
+  ]
+}
