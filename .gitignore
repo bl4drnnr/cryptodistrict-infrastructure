@@ -21,9 +21,6 @@ terraform.rc
 .DS_Store
 
 ansible/inventory.txt
-ansible/openvpn_do_ssh.pem
+ansible/cryptonodes.pem
 ansible/group_vars/*
 ansible/playbooks/users/*.yml
-ansible/playbooks/openvpn/*.yml
-ansible/playbooks/ca/*.yml
-ansible/playbook/nc/*.yml
