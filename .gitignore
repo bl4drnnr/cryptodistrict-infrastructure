@@ -24,3 +24,5 @@ ansible/inventory.txt
 ansible/cryptonodes.pem
 ansible/group_vars/*
 ansible/playbooks/users/*.yml
+
+.idea/
